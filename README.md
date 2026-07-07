@@ -56,34 +56,5 @@ Unity 菜单进入 `File > Build Profiles`：
 4. 关闭 `Development Build`。
 5. 输出到本地目录，例如 `E:\A_project\game\SnackStealth\builds\Windows`。
 
-导出的 Windows 包应通过 GitHub Releases 上传为 zip，不建议提交到 Git 仓库。
 
-## Git 提交范围
-
-应该提交：
-
-- `unity_project/Assets/_SnackStealth/`
-- `unity_project/Assets/ExternalAssets/` 中已解压并带许可证的小型素材
-- `unity_project/Packages/`
-- `unity_project/ProjectSettings/`
-- `.gitignore`
-- `README.md`
-
-不应该提交：
-
-- `unity_project/Library/`
-- `unity_project/Temp/`
-- `unity_project/Logs/`
-- `unity_project/UserSettings/`
-- `unity_project/build/`
-- `builds/`
-- `downloads/`
-- `analysis/.venv/`
-- 第三方素材原始下载压缩包
-
-## 第三方素材
-
-- Kenney Furniture Kit: CC0 license
-
-素材许可证文件应随对应素材目录一起保留。
 
