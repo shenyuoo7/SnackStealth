@@ -46,15 +46,5 @@ SnackStealth/
 - `F`: 坐下或起立
 - `E`: 偷吃当前桌内零食
 
-## 导出 Windows EXE
-
-Unity 菜单进入 `File > Build Profiles`：
-
-1. Platform 选择 `Windows`。
-2. Architecture 选择 `x86_64`。
-3. Scenes 里加入 `Classroom_Blockout`。
-4. 关闭 `Development Build`。
-5. 输出到本地目录，例如 `E:\A_project\game\SnackStealth\builds\Windows`。
-
 
 
