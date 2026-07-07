@@ -1,0 +1,61 @@
+# SnackStealth / Unity
+# Keep source assets, scenes, scripts, Packages, and ProjectSettings in Git.
+# Keep generated caches, local editor state, downloads, and builds out of Git.
+
+# Root-local generated folders
+/builds/
+/downloads/
+/logs/
+/analysis/.venv/
+/analysis/__pycache__/
+/analysis/**/*.pyc
+
+# Unity generated folders
+/unity_project/Library/
+/unity_project/Temp/
+/unity_project/Obj/
+/unity_project/Logs/
+/unity_project/UserSettings/
+/unity_project/MemoryCaptures/
+/unity_project/Recordings/
+
+# Local Unity build output
+/unity_project/build/
+/unity_project/Build/
+/unity_project/Builds/
+/unity_project/[Bb]uild*/
+
+# Download caches inside Assets. Keep extracted, licensed assets instead.
+/unity_project/Assets/ExternalAssets/_Downloads/
+/unity_project/Assets/ExternalAssets/**/*.zip
+/unity_project/Assets/ExternalAssets/**/*.7z
+/unity_project/Assets/ExternalAssets/**/*.rar
+
+# Generated IDE/project files
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.vscode/.ropeproject
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+
+# Crash/minidump files
+*.stackdump
+sysinfo.txt
+
